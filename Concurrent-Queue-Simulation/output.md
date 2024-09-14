@@ -1,33 +1,16 @@
-## for 10 minutes 
-```bash
-C:\Users\minha\Desktop\HPC\Concurrent-Queue-Simulation\Concurrent-Queue-Simulation\src> java Main 10
-Simulating BankQueue with 3 tellers and max queue length of 5...
-Bank Queue Simulation Results:
-Total customers: 2
-Total customers served: 2
-Total customers left unserved: 0
-Average service time: 282.0
-Simulating GroceryQueues with 3 cashiers and max queue length of 2...
-Grocery Queue Simulation Results:
-Total customers: 4
-Total customers served: 4
-Total customers left unserved: 0
-Average service time: 139.0
-```
+## Output for 60 minutes in each simulation
 
-## For 120 minutes
-```bash
-PS C:\Users\minha\Desktop\HPC\Concurrent-Queue-Simulation\Concurrent-Queue-Simulation\src> java Main 120
+```bash 
 Simulating BankQueue with 3 tellers and max queue length of 5...
 Bank Queue Simulation Results:
-Total customers: 25
-Total customers served: 25
-Total customers left unserved: 0
-Average service time: 181.64
+Total customers: 92
+Total customers served: 60
+Total customers left unserved: 27
+Average service time: 180.38333333333333
 Simulating GroceryQueues with 3 cashiers and max queue length of 2...
 Grocery Queue Simulation Results:
-Total customers: 32
-Total customers served: 32
-Total customers left unserved: 0
-Average service time: 187.125
+Total customers: 88
+Total customers served: 63
+Total customers left unserved: 19
+Average service time: 175.26984126984127
 ```
